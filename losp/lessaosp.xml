@@ -17,6 +17,10 @@
            fetch="https://gitlab.com/PixelOS-AOSP"
            revision="refs/heads/fourteen" />
 
+  <remote  name="PixelOS-Devices-Gitlab"
+           fetch="https://gitlab.com/PixelOS-Devices"
+           revision="refs/heads/fourteen" />
+           
   <!-- Rootdir -->
   <project path="bionic" name="bionic" groups="pdk" remote="losp" />
 
