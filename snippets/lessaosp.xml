@@ -121,5 +121,6 @@
   <!-- Vendor -->
   <project path="vendor/lessaosp" name="vendor_lessaosp" remote="github" revision="16" />
   <project path="vendor/support" name="vendor_support" remote="github" revision="16" />
+  <project path="vendor/partner_gms" name="vendor_partner-gms" remote="gitea" revision="16" />
 
 </manifest>
