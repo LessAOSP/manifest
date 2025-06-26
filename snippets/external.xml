@@ -5,6 +5,10 @@
            fetch="https://github.com/"
            revision="lineage-22.2" />
 
+  <!-- Additional Packages -->
+  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" clone-depth="1" remote="LineageOS" revision="lineage-22.2" />
+  <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" remote="LineageOS" revision="lineage-22.2" />
+  
   <!-- Inline kernel build -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" revision="lineage-19.1" remote="LineageOS" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" revision="lineage-19.1" remote="LineageOS" />
