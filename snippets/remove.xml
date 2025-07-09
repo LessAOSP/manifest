@@ -40,6 +40,7 @@
   <remove-project name="platform/packages/modules/Bluetooth"/>
   <remove-project name="platform/packages/modules/Wifi"/>
   <remove-project name="platform/packages/modules/Connectivity"/>
+  <remove-project name="platform/packages/inputmethods/LatinIME"/>
 
   <!-- System -->
   <remove-project name="platform/system/bpf" />

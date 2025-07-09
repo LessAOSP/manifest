@@ -109,4 +109,6 @@
   <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,lanai-vendor" remote="LineageOS" />
   <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,lanai-vendor" remote="LineageOS" />
 
+  <!-- Packages additions -->
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="LineageOS" />
 </manifest>
